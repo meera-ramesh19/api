@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This is where your description goes">
+  <meta name="keywords" content="one, two, three">
+
+ 
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Meera Ramesh">
+  <meta name="description" content="7 day Weather App for a city using the name of the city">
+  <meta property="og:title" content="Weathercityapp">
+  <meta property="og:description" content="7 day Weather App for a city using the name of the city">
+  <meta property="og:image" content="/.png">
+  <meta property="og:url" content="/">
+  <meta property="og:site_name" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image:alt" content="image description">
+  <title>CityWeatherapp</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!--Adding summary to a twitter card 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@flickr" />
+  <meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+  <meta name="twitter:description" content="View the album on Flickr." />
+  <meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952 -->
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="wrapper">
+    <section class="weatherinfo">
+      <div class="weatherapp" id="apps">
+        <h1> Weather App</h1>
+        <form>
+          <label> City Name:</label>
+          <input id="yourCity" type="text" name="" value="" placeholder="Ex:Boston">
+          <p></p>
+          <!--           <label> Country :</label>
+          <input id="yourCountry" type="text" name="" value="" placeholder="Ex:USA">
+          <p></p> -->
+          <button type="button" name="button" id="btn">Weather</button>
+          <span class="msg"></span>
+        </form>
+        <div id="backImg"></div>
+        <h3 class="timezone"></h3>
+        <h3></h3>
+        <img id="temp-icon" src="" alt="">
+        <h3 class="dates"></h3>
+        <h3 class="minmax"></h3>
+        <h3 class="speed"></h3>
+        <h3 class="sun"></h3>
+        <div id="backImg"></div>
+      </div>
+
+    </section>
+
+    <div class="forecast">
+
+    </div>
+
+  </section>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

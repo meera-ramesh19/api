@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- <div class="screen"> -->
+  <div id="symbol" class="display">
+    <p>Pick your symbol</p>
+    <button type="button" id="option-x" class="choose">X</button>
+    <button type="button" id="option-o" class="choose">O</button>
+  </div>
+  <!-- <div id="against" class="display hidden">
+    <p>Pick your opponent</p>
+    <button type="button" id="human" class="choose">Player</button>
+    <button type="button" id="cpu" class="choose">Computer</button>
+  </div>-->
+  <!-- </div> -->
+  <div class="grid-container display">
+    <div class="grid-1 cell" id="cell1" data-cell-index="1"></div>
+    <div class="grid-2 cell" id="cell2" data-cell-index="2"></div>
+    <div class="grid-3 cell" id="cell3" data-cell-index="3"></div>
+    <div class="grid-4 cell" id="cell4" data-cell-index="4"></div>
+    <div class="grid-5 cell" id="cell5" data-cell-index="5"></div>
+    <div class="grid-6 cell" id="cell6" data-cell-index="6"></div>
+    <div class="grid-7 cell" id="cell7" data-cell-index="7"></div>
+    <div class="grid-8 cell" id="cell8" data-cell-index="9"></div>
+    <div class="grid-9 cell" id="cell9" data-cell-index="9"></div>
+  </div>
+  <div id="reload">
+    <br>
+    <br>
+    <button id="reload_button" onClick="window.location.reload();">Restart Game</button>
+  </div>
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,360 @@
+/** {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+html,
+body,
+.grid-container {
+  height: 100%;
+  margin: 40px auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1% 1%;
+  max-width: 600px;
+  max-height: 600px;
+  padding: 15px;
+}
+
+.grid-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.grid-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.grid-3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.grid-4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.grid-5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.grid-6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.grid-7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.grid-8 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.grid-9 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9 {
+  border: 2px solid black;
+  max-width: 200px;
+  max-height: 200px;
+  background: lightgray;
+}
+
+@media screen and min-width(900px) {
+  .grid-container {
+    width: 100%;
+    height: 100%;
+  }
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6,
+  .grid-7,
+  .grid-8,
+  .grid-9 {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* For presentation only, no need to copy the code below */
+/* .grid-container * {
+  border: 2px solid black;
+  position: relative;
+}
+
+.grid-container *:after {
+  content: attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.display {
+  margin: 0 auto;
+}
+
+ .screen{
+  display: flex
+  flex-direction:column;
+}
+
+#symbol,
+#against {
+  display: block;
+  flex-direction: row;
+
+  max-width: 300px;
+  max-height: 200px;
+  padding: 0px 20px 20px 20px;
+}
+#symbol > p,
+#against > p {
+  font-size: 3rem;
+
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#option-x,
+#option-o {
+  margin-left: 45px;
+  display: inline-flex;
+
+  padding: 2rem;
+  font-size: 3rem;
+  border: 1px solid black;
+}
+#cpu,
+#human {
+  margin-left: 25px;
+  display: inline-flex;
+
+  padding: 1rem;
+  font-size: 2rem;
+  border: 1px solid black;
+ } */
+/* .cell {
+  cursor: pointer;
+  color: #333;
+} */
+/* .player-two {
+  color: #933;
+}
+
+.player-one {
+  color: #333;
+}
+
+.locked {
+  cursor: not-allowed;
+} */
+/*   flex-direction:row; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+html,
+body,
+.grid-container {
+  height: 100%;
+  margin: 40px auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1% 1%;
+  max-width: 600px;
+  max-height: 600px;
+  padding: 15px;
+}
+.grid-0 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.grid-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.grid-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.grid-3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.grid-4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.grid-5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.grid-6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.grid-7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.grid-8 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.grid-9 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.grid-0,
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9 {
+  border: 2px solid black;
+  max-width: 200px;
+  max-height: 200px;
+  background: lightgray;
+}
+
+@media screen and min-width(900px) {
+  .grid-container {
+    width: 100%;
+    height: 100%;
+  }
+  .grid-0,
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6,
+  .grid-7,
+  .grid-8,
+  .grid-9 {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* For presentation only, no need to copy the code below */
+/* .grid-container * {
+  border: 2px solid black;
+  position: relative;
+}
+
+.grid-container *:after {
+  content: attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+.hidden {
+  display: none;
+}
+
+.display {
+  margin: 0 auto;
+}
+
+/* .screen{
+  display: flex
+  flex-direction:column;
+} */
+
+#symbol,
+#against {
+  display: block;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 300px;
+  max-height: 200px;
+
+  padding: 0px 20px 20px 20px;
+}
+
+#symbol > p,
+#against > p {
+  font-size: 3rem;
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#option-x,
+#option-o {
+  margin-left: 45px;
+  display: inline-flex;
+  /* flex-direction:row; */
+  padding: 2rem;
+  font-size: 3rem;
+  border: 1px solid black;
+}
+#cpu,
+#human {
+  margin-left: 25px;
+  display: inline-flex;
+  /* flex-direction:row; */
+  padding: 1rem;
+  font-size: 2rem;
+  border: 1px solid black;
+}
+.cell {
+  cursor: pointer;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+.player-two {
+  color: #933;
+}
+.player-one {
+  color: #333;
+}
+
+.locked {
+  cursor: not-allowed;
+}
+
+#reload_button {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 30%;
+  font-size: medium;
+}

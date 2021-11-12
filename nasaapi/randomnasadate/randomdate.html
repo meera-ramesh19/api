@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This is where your description goes">
+  <meta name="keywords" content="one, two, three">
+
+  <title>SpaceGazers</title>
+
+  <!-- external CSS link -->
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Magnific Popup core CSS file -->
+<!-- <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+<!-- Magnific Popup core JS file --
+<script src="magnific-popup/jquery.magnific-popup.js"></script>
+ <script language="JavaScript"  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script> -->
+ <!-- Favicon -->
+ <link href="../img/favicon.ico" type="image/icon" rel="icon">
+
+ <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="img/favicon_io/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="img/favicon_io/png" sizes="16x16" href="img/favicon_ioimg/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <nav>
+  <ul class="menu">
+    <li class="logo"><a href="#">JHSS</a></li>
+    <li class="item"><a href="../index.html">Home</a></li>
+    <li class="item"><a href="../rangeofdates/rangedates.html">Date Ranges</a></li>
+    <li class="item"><a href="../randomnasadate/randomdate.html"> Random Date </a></li>
+    <li class="item"><a href="../picoftheday/picday.html">Picture of the Day</a></li>
+
+    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+  </ul>
+ </nav>
+  <main class="container1">
+
+      <h1 class="title">Welcome to SpaceGazers</h1>
+
+    <div class="about">
+     <!-- <div class="left">
+      
+        <img src="spaceship.png" alt="Decorative Clip art of a Space Ship" width="60%" />
+      </div> -->
+      <div class="right" id="about">
+        <p class="introPara">
+          Welcome Space Enthusiasts, Spacegazers brings you spectacular pictures of the space with NASA's APOD services.
+          Enjoy the picture from an earlier random date, with the earliest date being June 25th 1995 and today being the latest.
+        </p>
+
+        <form action="">
+          <div class="form-group">
+
+            <h2>Generate random date picture</h2>
+            <input type="date" class="hidden" id="random" name="" value="">
+            <button type="button"id="dateBtn" name="button">Random Date</button>
+
+            <div class="small">
+              <small class="form-text">Images launched from
+                <a class="form-text nasaLink" href="https://api.nasa.gov/" target="_blank" title="Link to NASA's API">NASA's Astronomy Picture of a Random Date</a></small>
+            </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    <!-- </div> -->
+   </main>
+   <h3 id="randomDate"></h3>
+    <section class="container2">
+      <div class="wrapper hide">
+       <section class="result-img zoom-gallery">
+
+          <img src=""  id="randomImg" width="500"  height="500" alt=""/>
+
+         <!-- <a class="image-popup-vertical-fit" href="" title="Caption. Can be aligned to any side and contain any HTML.">
+         	<img src=""id="randomImg" width="500" height="500">
+         </a>
+         <a class="image-popup-fit-width" href="" title="This image fits only horizontally.">
+         <img src=""id="randomImg" width="500" height="500">
+         </a>
+         <a class="image-popup-no-margins" href="">
+              <img src="" id="randomImg" width="500" height="500">
+         </a> -->
+
+       </section>
+      <section class="desc">
+      
+       <p id="randomDesc">Description:</p>
+       
+      </section>
+    </div>
+    </section>
+
+
+  <script src="main.js"></script>
+
+    <!-- <script defer src="js/photo-script.js"></script> -->
+
+ <!-- <script  src="script.js"></script> -->
+
+</body>
+
+</html>

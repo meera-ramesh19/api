@@ -1,0 +1,129 @@
+.main__heading{
+    text-align:center;
+}
+
+.input__colors{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin:2rem auto;
+   padding:1rem;
+   width:400px;
+   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+input[type="text"]{
+    display:block;
+    margin-right:2rem;
+}
+/* #name{
+    padding:1rem;
+} */
+#btn{
+    display:block;
+    text-align: center;
+    width:6rem;
+    padding:0.5rem;
+    border-radius: 3rem;
+    background-color:#F67280;
+
+}
+#text__color{
+    padding:1rem;
+    text-align: center;
+    margin:2rem auto;
+    width:200px;
+     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  */
+}
+.display__colors >div, .result > div{
+    display:inline-flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    width:150px;
+    height:auto;
+    border:2px solid black;
+    text-align:center;
+    padding:50px 0;
+    margin:40px ;
+
+}
+#theList{
+    list-style-type: none;
+    padding:1rem;
+    margin:1rem;
+}
+
+
+
+.yellowgreen{
+    background-color: #9ACD32;
+}
+.seagreen{
+    background-color: #2E8B57;
+}
+.forestgreen{
+    background-color: #228B22;
+}
+.mediumseagreen{
+    background-color: #3CB371;
+}
+
+.limegreen{
+background-color: #32CD32;
+}
+
+.springgreen{
+    background-color: #00FF7F;
+ }
+
+.rebeccapurple{
+    background-color: #663399;
+}
+.navypurple{
+    background-color: #9457EB;
+}
+.mediumpurple{
+ background-color: #9370DB;
+}
+.red{
+    background-color:#FF0000;
+}
+.darkred{
+    background-color:#8B0000;
+}
+.indianred{
+    background-color:#CD5C5C;
+}
+.ivyblue{
+    background-color:#3090C7;
+}
+.skyblue{
+    background-color:#6698FF;
+}
+.lightsteelblue{
+    background-color:#B0CFDE ;
+}
+.gray{
+    background-color:  #808080;
+}
+.lightslategray{
+    background-color:#778899;}
+.lightyellow{
+        background-color:  #FFFFE0;
+    }
+.yellow{
+    background-color:#FFFF00;}
+.lemonyellow{
+    background-color:#FFF44F;}
+.bananayellow{
+    background-color:#FFE135;}
+
+
+
+    /* refeered to
+    /*https://saravanan-inc.github.io/Color-Picker/index.html */
+    /* https://codepen.io/laseraashu/pen/vYZdEdm challenge_1_byGuru asshutosh */
+    /* https://ankitkumaratg6041.github.io/colorSearcherChallenge/ */
+    /* https://codepen.io/md-shafaullah/pen/WNOdXEj */
