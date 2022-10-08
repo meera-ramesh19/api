@@ -59,7 +59,7 @@ function getPhotos() {
   // document.querySelector("input").value = dateVal;
   const dateVal=document.querySelector('#picofdate').value
   const url =
-    "https://api.nasa.gov/planetary/apod?api_key=&date=" +
+    "https://api.nasa.gov/planetary/apod?api_key=OCWcgLEbNe0Wkwa4H4T152e9OsTGjIRuhPcnUIlQ&date=" +
     dateVal;
   fetch(url)
     .then((res) => res.json())
